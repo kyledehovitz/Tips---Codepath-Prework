@@ -13,6 +13,7 @@
 		275D45691AF3188700332E21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275D45681AF3188700332E21 /* Images.xcassets */; };
 		275D456C1AF3188700332E21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275D456A1AF3188700332E21 /* LaunchScreen.xib */; };
 		275D45781AF3188700332E21 /* TipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D45771AF3188700332E21 /* TipsTests.swift */; };
+		275D45831AF33B9B00332E21 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275D45811AF33B9B00332E21 /* Main2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		275D45711AF3188700332E21 /* TipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		275D45761AF3188700332E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		275D45771AF3188700332E21 /* TipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTests.swift; sourceTree = "<group>"; };
+		275D45821AF33B9B00332E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				275D45611AF3188700332E21 /* AppDelegate.swift */,
 				275D45631AF3188700332E21 /* ViewController.swift */,
 				275D45651AF3188700332E21 /* Main.storyboard */,
+				275D45811AF33B9B00332E21 /* Main2.storyboard */,
 				275D45681AF3188700332E21 /* Images.xcassets */,
 				275D456A1AF3188700332E21 /* LaunchScreen.xib */,
 				275D455F1AF3188700332E21 /* Supporting Files */,
@@ -194,6 +197,7 @@
 			files = (
 				275D45671AF3188700332E21 /* Main.storyboard in Resources */,
 				275D456C1AF3188700332E21 /* LaunchScreen.xib in Resources */,
+				275D45831AF33B9B00332E21 /* Main2.storyboard in Resources */,
 				275D45691AF3188700332E21 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +254,14 @@
 				275D456B1AF3188700332E21 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		275D45811AF33B9B00332E21 /* Main2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275D45821AF33B9B00332E21 /* Base */,
+			);
+			name = Main2.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

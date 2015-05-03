@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../Tips/Base.lproj/Main3.storyboard">
+   </FileRef>
+   <FileRef
       location = "self:Tips.xcodeproj">
    </FileRef>
 </Workspace>
